@@ -1,0 +1,702 @@
+[
+    {
+        "name": "composer/installers",
+        "version": "v1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+            "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.0.*@dev",
+            "phpunit/phpunit": "4.1.*"
+        },
+        "time": "2017-04-24T06:37:16+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Eliasis",
+            "Hurad",
+            "ImageCMS",
+            "Kanboard",
+            "MODX Evo",
+            "Mautic",
+            "Maya",
+            "OXID",
+            "Plentymarkets",
+            "Porto",
+            "RadPHP",
+            "SMF",
+            "Thelia",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "itop",
+            "joomla",
+            "kohana",
+            "laravel",
+            "lavalite",
+            "lithium",
+            "magento",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "moodle",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "puppet",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "sydes",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ]
+    },
+    {
+        "name": "mnsami/composer-custom-directory-installer",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mnsami/composer-custom-directory-installer.git",
+            "reference": "8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mnsami/composer-custom-directory-installer/zipball/8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5",
+            "reference": "8cc82e0c5801cc3bf53ba452afdcaa5c6ff645a5",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0",
+            "php": ">=5.3"
+        },
+        "time": "2016-05-25T08:26:02+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": [
+                "Composer\\CustomDirectoryInstaller\\LibraryPlugin",
+                "Composer\\CustomDirectoryInstaller\\PearPlugin",
+                "Composer\\CustomDirectoryInstaller\\PluginPlugin"
+            ],
+            "branch-alias": {
+                "dev-master": "1.1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Composer\\CustomDirectoryInstaller": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Mina Nabil Sami",
+                "email": "mina.nsami@gmail.com"
+            }
+        ],
+        "description": "A composer plugin, to help install packages of different types in custom paths.",
+        "keywords": [
+            "composer",
+            "composer-installer",
+            "composer-plugin"
+        ]
+    },
+    {
+        "name": "Pallavi-P/plugin",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Pallavi-P/plugin.git",
+            "reference": "6182232e6ad1be24654768c8af5ce77010107929"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Pallavi-P/plugin/zipball/6182232e6ad1be24654768c8af5ce77010107929",
+            "reference": "6182232e6ad1be24654768c8af5ce77010107929",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-06-19T09:36:26+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "plugin": "src/"
+            }
+        },
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jordi Boggiano",
+                "email": "j.boggiano@seld.be",
+                "homepage": "http://seld.be"
+            }
+        ],
+        "description": "Logging for PHP 5.3",
+        "keywords": [
+            "log",
+            "logging"
+        ],
+        "support": {
+            "source": "https://github.com/Pallavi-P/plugin/tree/1.0.0",
+            "issues": "https://github.com/Pallavi-P/plugin/issues"
+        }
+    },
+    {
+        "name": "wpackagist-plugin/vimeography",
+        "version": "1.5",
+        "version_normalized": "1.5.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/vimeography/",
+            "reference": "tags/1.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/vimeography.1.5.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/vimeography/"
+    },
+    {
+        "name": "wpackagist-plugin/calendar",
+        "version": "1.3.9",
+        "version_normalized": "1.3.9.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/calendar/",
+            "reference": "tags/1.3.9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/calendar.1.3.9.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/calendar/"
+    },
+    {
+        "name": "wpackagist-plugin/categories-images",
+        "version": "2.5.3",
+        "version_normalized": "2.5.3.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/categories-images/",
+            "reference": "tags/2.5.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/categories-images.2.5.3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/categories-images/"
+    },
+    {
+        "name": "wpackagist-plugin/cimy-user-extra-fields",
+        "version": "2.7.2",
+        "version_normalized": "2.7.2.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/cimy-user-extra-fields/",
+            "reference": "tags/2.7.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/cimy-user-extra-fields.2.7.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/cimy-user-extra-fields/"
+    },
+    {
+        "name": "wpackagist-plugin/cms-tree-page-view",
+        "version": "1.3.4",
+        "version_normalized": "1.3.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/cms-tree-page-view/",
+            "reference": "tags/1.3.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/cms-tree-page-view.1.3.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/cms-tree-page-view/"
+    },
+    {
+        "name": "wpackagist-plugin/compact-wp-audio-player",
+        "version": "1.9.6",
+        "version_normalized": "1.9.6.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/compact-wp-audio-player/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/compact-wp-audio-player.zip?timestamp=1496664887",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/compact-wp-audio-player/"
+    },
+    {
+        "name": "wpackagist-plugin/contact-form-7",
+        "version": "4.7",
+        "version_normalized": "4.7.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+            "reference": "tags/4.7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.7.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/contact-form-7/"
+    },
+    {
+        "name": "wpackagist-plugin/contact-form-7-success-page-redirects",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/contact-form-7-success-page-redirects/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/contact-form-7-success-page-redirects.zip?timestamp=1433831677",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/contact-form-7-success-page-redirects/"
+    },
+    {
+        "name": "wpackagist-plugin/contextual-related-posts",
+        "version": "2.3.1",
+        "version_normalized": "2.3.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/contextual-related-posts/",
+            "reference": "tags/2.3.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/contextual-related-posts.2.3.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/contextual-related-posts/"
+    },
+    {
+        "name": "wpackagist-plugin/download-manager",
+        "version": "2.9.52",
+        "version_normalized": "2.9.52.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/download-manager/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/download-manager.zip?timestamp=1496989506",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/download-manager/"
+    },
+    {
+        "name": "wpackagist-plugin/duplicate-post",
+        "version": "3.2",
+        "version_normalized": "3.2.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/duplicate-post/",
+            "reference": "tags/3.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/duplicate-post/"
+    },
+    {
+        "name": "wpackagist-plugin/dirtysuds-embed-pdf",
+        "version": "1.03",
+        "version_normalized": "1.03.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/dirtysuds-embed-pdf/",
+            "reference": "tags/1.03"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/dirtysuds-embed-pdf.1.03.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/dirtysuds-embed-pdf/"
+    },
+    {
+        "name": "wpackagist-plugin/listo",
+        "version": "1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/listo/",
+            "reference": "tags/1.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/listo.1.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/listo/"
+    },
+    {
+        "name": "wpackagist-plugin/simple-google-maps-short-code",
+        "version": "1.3",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/simple-google-maps-short-code/",
+            "reference": "tags/1.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/simple-google-maps-short-code.1.3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/simple-google-maps-short-code/"
+    },
+    {
+        "name": "wpackagist-plugin/simplr-registration-form",
+        "version": "2.4.5",
+        "version_normalized": "2.4.5.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/simplr-registration-form/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/simplr-registration-form.zip?timestamp=1468598039",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/simplr-registration-form/"
+    },
+    {
+        "name": "wpackagist-plugin/slideshow-jquery-image-gallery",
+        "version": "2.3.1",
+        "version_normalized": "2.3.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/slideshow-jquery-image-gallery/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/slideshow-jquery-image-gallery.zip?timestamp=1448124105",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/slideshow-jquery-image-gallery/"
+    },
+    {
+        "name": "wpackagist-plugin/social-media-feather",
+        "version": "1.8.4",
+        "version_normalized": "1.8.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/social-media-feather/",
+            "reference": "tags/1.8.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/social-media-feather.1.8.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/social-media-feather/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-easy-gallery",
+        "version": "4.3.0",
+        "version_normalized": "4.3.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-easy-gallery/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-easy-gallery.zip?timestamp=1496720031",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-easy-gallery/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-google-analytics",
+        "version": "1.4.1",
+        "version_normalized": "1.4.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-google-analytics/",
+            "reference": "tags/1.4.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-google-analytics.1.4.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-google-analytics/"
+    },
+    {
+        "name": "wpackagist-plugin/wpms-sidebar-login-widget",
+        "version": "1.9.4",
+        "version_normalized": "1.9.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wpms-sidebar-login-widget/",
+            "reference": "tags/1.9.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wpms-sidebar-login-widget.1.9.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wpms-sidebar-login-widget/"
+    },
+    {
+        "name": "wpackagist-plugin/youtube-channel",
+        "version": "3.0.11.1",
+        "version_normalized": "3.0.11.1",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/youtube-channel/",
+            "reference": "tags/3.0.11.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/youtube-channel.3.0.11.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/youtube-channel/"
+    },
+    {
+        "name": "wpackagist-plugin/wordpress-seo",
+        "version": "4.8",
+        "version_normalized": "4.8.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+            "reference": "tags/4.8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.8.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+    }
+]
